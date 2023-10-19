@@ -1,0 +1,13 @@
+.material-icons {
+  font-size: 28px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.material-icons.edit {
+  color: blue;
+}
+
+.material-icons.delete {
+  color: red;
+}
