@@ -1,0 +1,71 @@
+.container {
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  width: calc(100% - 20px);
+  border-collapse: collapse;
+  margin: 10px;
+}
+
+.list thead th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 10px;
+}
+
+.list tbody tr {
+  border-bottom: 1px solid #ccc;
+}
+
+.list td {
+  padding: 10px;
+}
+
+/* input[type="text"] {
+  width: 100%;
+  padding: 5px;
+} */
+
+a.add-btn {
+  align-self: flex-end;
+  text-decoration: none;
+  background-color: #07345b;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin: 10px;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+/* button.done-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button.edit-button {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button.delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+} */
