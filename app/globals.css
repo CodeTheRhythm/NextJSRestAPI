@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.title {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  color: #454a4e;
+}
