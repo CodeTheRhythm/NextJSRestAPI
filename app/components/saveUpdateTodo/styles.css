@@ -1,0 +1,49 @@
+/* .modal-form {
+  position: absolute;
+  width: 500px;
+  margin-left: calc(50% - 250px);
+  border: 1px solid lightgray;
+  background-color: #f2f2f2;
+  border-radius: 3px;
+  top: 220px;
+  display: none;
+} */
+
+.input-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-form button[type="submit"] {
+  align-self: flex-end;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.input-form button[type="submit"]:hover {
+  background-color: #0f7ae0;
+}
